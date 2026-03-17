@@ -1,0 +1,1 @@
+//1. expõe os detalhes internos de um objeto, permitindo que qualquer parte do sistema modifique seu estado diretamente
