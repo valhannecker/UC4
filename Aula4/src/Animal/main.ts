@@ -6,3 +6,5 @@ const Garfield = new Gato ("Garfield")
 
 Rex.latir()
 Garfield.miar()
+
+Rex.emitirSom()

@@ -12,4 +12,8 @@ export class Animal {
     dormir () {
         console.log (`${this.nome} está dormindo!`)
     }
+
+    emitirSom () {
+        console.log(`${this.nome} está emitindo som!`)
+    }
 }
