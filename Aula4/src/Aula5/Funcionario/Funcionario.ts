@@ -7,7 +7,7 @@ export class Funcionario {
         this.salario = salario
     }
 
-    mostrarSalario () {
+    mostrarSalario (): void {
         console.log (`O funcionário ${this.nome} recebe o salário: ${this.salario}`)
     }
 }

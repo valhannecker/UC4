@@ -1,7 +1,7 @@
 import { Pessoa } from "./pessoa";
 
-class Professor extends Pessoa {
-    darAula () {
+ export class Professor extends Pessoa {
+    darAula (): void {
         console.log (`${this.nome} está dando aula.`)
     }
 }

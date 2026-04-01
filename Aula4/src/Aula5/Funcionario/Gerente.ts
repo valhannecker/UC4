@@ -1,9 +1,10 @@
 import { Funcionario } from "./Funcionario";
 
-class gerente extends Funcionario {
+export class Gerente extends Funcionario {
     
-    aumentarSalario () {
-        this.salario += 9999
-        console.log (`O gerente ${this.nome} aumentou o próprio salário para ${this.salario}`)
+    //aumenta em x%
+    aumentarSalario (valor: number): number {
+        return this.salario += (this.salario * (valor/100))
+        // console.log (`O gerente ${this.nome} aumentou o próprio salário para ${this.salario}`)
     }
 }

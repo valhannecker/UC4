@@ -1,6 +1,6 @@
 import { Pessoa } from "./pessoa";
 
-class aluno extends Pessoa {
+export class Aluno extends Pessoa {
     estudar () {
         console.log (`${this.nome} está estudando.`)
     }
